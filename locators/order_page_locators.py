@@ -25,8 +25,3 @@ class OrderPageLocators:
     order_forth_day_period = (By.XPATH, "//div[text()='четверо суток']")
     button_next = (By.XPATH, ".//button[text()='Далее']")
     button_order = (By.XPATH, "//div[@class = 'Order_Buttons__1xGrp']/button[text()='Заказать']")
-    data_order_first_page = [
-        ['Егор', 'Хохлов', 'Первомайская, 69', '+79999999999', '10.05.2024'],
-        ['Иван', 'Николаев', 'Ленина, 95', '+78888888888', '12.05.2024']
-    ]
-
